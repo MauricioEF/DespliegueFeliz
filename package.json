@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">=14 <17"
+  },
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
